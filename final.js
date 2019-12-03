@@ -111,7 +111,7 @@ let toolChart = div.append('svg')
   // add the y Axis
   svg.append("g")
       .call(d3.axisLeft(y));
-    makeLabels(svg, msm, "Histograms of 15 Most Common Crimes", "Offense Code Group: Type of Crime", "Frequency", false);
+    makeLabels(svg, msm, "Histogram of 15 Most Common Crimes In Boston", "Offense Code Group: Type of Crime", "Frequency", false);
 
 
 function plotTooltip(code, toolChart) {
