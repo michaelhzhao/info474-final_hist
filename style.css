@@ -2,6 +2,10 @@ body {
     font: 12px Arial;
 }
 
+rect.bar {
+    cursor: pointer;
+}
+
 path {
     stroke-width: 2;
     fill: none;
